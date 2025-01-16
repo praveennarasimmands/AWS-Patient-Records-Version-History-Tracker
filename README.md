@@ -77,9 +77,9 @@ The project will be organized as follows:
 patient-records-version-history-tracker/
 │
 ├── requirements.txt              # Python dependencies (e.g., boto3)
-├── versioning.py                 # Script to enable versioning for patient records
-├── upload_patient_record.py      # Script to upload patient records to S3
-├── compare_versions.py           # Script to list and compare versions of patient records
+├── enable_versioning.py          # Script to enable versioning for patient records
+├── get_specific_version.py       # Script to get specific version data
+├── list_versions.py              # Script to list and compare versions of patient records
 ├── README.md                     # Project documentation
 ```
 
