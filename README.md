@@ -99,26 +99,26 @@ pip install -r requirements.txt
 
 ### **Step 2: Enable S3 Versioning**
 
-In the **versioning.py** script, enable versioning for the S3 bucket:
+In the **enable_versioning.py** script, enable versioning for the S3 bucket:
 
 ```bash
-python versioning.py
+python enable_versioning.py 
 ```
 
 ### **Step 3: Upload Patient Records**
 
-To upload a new version of a patient record, run the **upload_patient_record.py** script:
+To List and compare the versions of a patient record, run the **list_versions.py** script:
 
 ```bash
-python upload_patient_record.py
+python list_versions.py
 ```
 
 ### **Step 4: Retrieve and Compare Versions**
 
-To list and compare versions of patient records, run the **compare_versions.py** script:
+To download versions of patient records, run the **get_specific_version.py** script:
 
 ```bash
-python compare_versions.py
+python get_specific_version.py
 ```
 
 
