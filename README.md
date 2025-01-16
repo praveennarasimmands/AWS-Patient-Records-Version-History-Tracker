@@ -2,7 +2,7 @@
 
 ## **Problem Statement**
 
-In healthcare settings, patient records such as medical histories, test results, and treatment notes are frequently updated by healthcare professionals. These updates are crucial for patient care, but they can also be prone to errors, accidental overwrites, or data loss. Losing critical information or overwriting older data can compromise patient safety and the effectiveness of treatments. Moreover, compliance with regulatory requirements like HIPAA mandates that healthcare institutions maintain accurate and accessible records for auditing and analysis purposes.
+In healthcare, patient records such as medical histories, test results, and treatment notes are frequently updated by healthcare professionals. These updates are crucial for patient care, but they can also be prone to errors, accidental overwrites, or data loss. Losing critical information or overwriting older data can compromise patient safety and the effectiveness of treatments. Moreover, compliance with regulatory requirements like HIPAA mandates that healthcare institutions maintain accurate and accessible records for auditing and analysis purposes.
 
 ### **Challenges**:
 - **Accidental Overwriting**: Patient records are updated regularly, and without version control, critical data may be lost or overwritten.
